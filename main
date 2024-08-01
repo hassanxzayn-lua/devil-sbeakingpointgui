@@ -569,3 +569,12 @@ UIS.InputBegan:Connect(function(input)
 end)
    end,
 })
+
+local Button = MainTab:CreateButton({
+   Name = "Change FOV",
+   Callback = function()
+
+pcall(loadstring(game:HttpGet("https://pastebin.com/raw/PRw16c2Y")))
+
+   end,
+})
